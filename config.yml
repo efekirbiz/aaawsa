@@ -1,0 +1,21 @@
+# This is the server motd.
+Server-MOTD:
+  Line-1: '&b&lGisty Network &7| &b Sessizce geliyor...'
+  Line-2: '&6[&a Instagram: &c@GistyNW &6]'
+# The motd of the player when they join in.
+JoinGame-MOTD:
+  Enabled: false
+  # Check forum for placeholders.
+  # Supported for PlaceholderAPI placeholders.
+  Messages:
+  - ''
+# Server icon.
+Custom-Server-Icon:
+  # Set to true will load image from motd folder.
+  Enabled: false
+  # Make sure it's 64 x 64 pixels with png format.
+  Image: server-icon.png
+# The maximum players of the server.
+Server-Maximum-Players:
+  Modify: true
+  Maximum-Players: 99
